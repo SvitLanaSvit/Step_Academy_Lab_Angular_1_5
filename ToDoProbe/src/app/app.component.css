@@ -1,0 +1,39 @@
+.wrapper{
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.monolog{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 4px 5px 3px rgb(214, 237, 39);
+}
+
+.author{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+th{
+  text-align: left;
+  padding: 8px;
+}
+
+td{
+  padding: 8px;
+}
+
+th, td{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}

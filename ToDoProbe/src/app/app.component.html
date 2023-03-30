@@ -1,0 +1,34 @@
+<h1>{{title}}</h1>
+<div class="wrapper">
+  <div>
+    <ul>
+      <li class="author">{{authors[0]}}:
+        <ul>
+          <li class="monolog">{{monologueHamlet}}</li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li class="author">{{authors[1]}}:
+        <ul>
+          <li class="monolog" *ngFor="let monolog of monologueGates">
+            {{monolog}}
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div>
+      <img src="../assets/Bill_Gates_2017_(cropped).jpg" alt="Bill_Gates_2017_">
+    </div>
+    <div>
+      <table >
+        <tr *ngFor="let n of values">
+          <th>{{titles[n]}}</th>
+          <td>{{infos[n]}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
